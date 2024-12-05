@@ -61,8 +61,8 @@
 <div class="container mx-auto">
 	<div class="flex items-end gap-3">
 		<h1 class="pt-5 text-3xl font-semibold">{group.name}</h1>
-		<button class="text-neutral-600" onclick={openInfoModal}><EditIcon /></button>
-		<button class="ms-auto text-xl text-error" onclick={toggleDeleteModal}><DeleteIcon /></button>
+		<button class="ms-auto text-neutral-600" onclick={openInfoModal}><EditIcon /></button>
+		<button class="text-xl text-error" onclick={toggleDeleteModal}><DeleteIcon /></button>
 	</div>
 	<p class="mt-3 text-sm text-neutral-400">{group.description}</p>
 	<div class="divider"></div>
