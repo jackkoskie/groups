@@ -25,7 +25,7 @@
 	};
 </script>
 
-<div class="container mx-auto">
+<div class="container mx-auto min-h-[calc(100vh-4.22rem)]">
 	<div class="flex w-full flex-row items-center pt-5">
 		<h1 class="text-3xl font-semibold">Your Groups</h1>
 		<button class="btn btn-neutral ms-auto" onclick={newGroup}>New Group</button>
@@ -41,7 +41,7 @@
 					<div class="card-body">
 						<h2 class="card-title">{group.name}</h2>
 						{#if group.description}
-							<p>{group.description}</p>
+							<p class="text-neutral-400">{group.description}</p>
 						{/if}
 						<p>
 							{group.individuals.length} Individual{group.individuals.length == 0 ||
