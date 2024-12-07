@@ -58,7 +58,7 @@
 	});
 </script>
 
-<div class="container mx-auto">
+<div class="container mx-auto min-h-[calc(100vh-4.22rem)]">
 	<div class="flex items-end gap-3">
 		<h1 class="pt-5 text-3xl font-semibold">{group.name}</h1>
 		<button class="ms-auto text-neutral-600" onclick={openInfoModal}><EditIcon /></button>
