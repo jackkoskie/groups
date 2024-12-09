@@ -211,9 +211,9 @@
 					<button class="btn btn-success mb-5" onclick={() => toggleModal('teams')}
 						>Generate Teams</button
 					>
-					<button class="btn btn-outline btn-warning mb-5" onclick={createEmptyTeam}
-						>Create Empty Team</button
-					>
+					{#if group.teaming?.teams && group.teaming.teams.length > 0}
+						<button class="btn btn-primary mb-5" onclick={createEmptyTeam}>Add Team</button>
+					{/if}
 					<button class="btn btn-outline btn-error mb-5" onclick={() => toggleModal('clear-teams')}
 						>Clear Teams</button
 					>
