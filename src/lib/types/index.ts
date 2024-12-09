@@ -1,1 +1,1 @@
-export type { Group } from './Group';
+export type * from './Group';

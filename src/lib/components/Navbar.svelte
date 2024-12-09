@@ -19,7 +19,8 @@
 			</div>
 			<ul class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow">
 				<li><a href="/">Home</a></li>
-				<li><a href="/groups">My Groups</a></li>
+				<li><a href="/dashboard">Dashboard</a></li>
+				<li><a href="/groups">Groups</a></li>
 				<li><a href="https://github.com/jackkoskie/groups">GitHub</a></li>
 			</ul>
 		</div>
@@ -27,7 +28,8 @@
 		<div class="hidden lg:flex">
 			<ul class="menu menu-horizontal px-1">
 				<li><a href="/">Home</a></li>
-				<li><a href="/groups">My Groups</a></li>
+				<li><a href="/dashboard">Dashboard</a></li>
+				<li><a href="/groups">Groups</a></li>
 				<li><a href="https://github.com/jackkoskie/groups">GitHub</a></li>
 			</ul>
 		</div>

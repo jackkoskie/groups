@@ -4,4 +4,9 @@ export type Group = {
 	description?: string;
 	created_at: Date;
 	individuals: string[];
+	teaming?: {
+		numGroups?: number;
+		perGroup?: number;
+		teams: string[][];
+	};
 };

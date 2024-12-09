@@ -14,14 +14,15 @@
 	});
 
 	const newGroup = () => {
+		let id = Math.max(...groups.map((g) => g.id), 0) + 1;
 		groups.push({
-			id: groups.length + 1,
-			name: `New Group ${groups.length + 1}`,
+			id,
+			name: `New Group ${id}`,
 			individuals: [],
 			created_at: new Date()
 		});
 		localStorage.setItem('groups', JSON.stringify(groups));
-		goto(`/groups/${groups.length}`);
+		goto(`/groups/${id}`);
 	};
 </script>
 

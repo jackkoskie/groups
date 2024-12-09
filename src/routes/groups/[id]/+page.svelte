@@ -45,6 +45,7 @@
 	};
 	const deleteGroup = () => {
 		groups = groups.filter((g) => g.id !== group.id);
+		localStorage.setItem('groups', JSON.stringify(groups));
 		goto('/groups');
 	};
 
@@ -83,7 +84,7 @@
 	});
 </script>
 
-<div class="container mx-auto min-h-[calc(100vh-4.22rem)]">
+<div class="content">
 	<div class="flex items-end gap-3">
 		<h1 class="pt-5 text-3xl font-semibold">{group.name}</h1>
 		<button class="ms-auto text-success" onclick={toggleIndividualModal}><AddUserIcon /></button>
@@ -97,7 +98,7 @@
 		{#if group.individuals.length == 0}
 			<p class="text-neutral-400">No individuals in this group</p>
 		{:else}
-			<h2 class="text-xl font-semibold">Individuals</h2>
+			<h2 class="text-xl font-semibold">Individuals ({group.individuals.length})</h2>
 			<ul class="">
 				{#each group.individuals as individual, i}
 					<li class="list-item">

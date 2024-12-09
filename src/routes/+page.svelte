@@ -12,7 +12,7 @@
 				This tool is here to help you organize groups of people, selecting individuals at random,
 				and more!
 			</p>
-			<a href="/groups" class="btn btn-primary">Get Started</a>
+			<a href="/dashboard" class="btn btn-primary">Get Started</a>
 		</div>
 	</div>
 </div>
