@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20241202.0
-        version: 4.20241214.0
+        version: 4.20241218.0
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
         version: 3.3.1(@sveltejs/kit@2.12.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))
       '@sveltejs/adapter-cloudflare':
         specifier: ^4.8.0
-        version: 4.8.0(@sveltejs/kit@2.12.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(wrangler@3.96.0(@cloudflare/workers-types@4.20241214.0))
+        version: 4.8.0(@sveltejs/kit@2.12.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(wrangler@3.96.0(@cloudflare/workers-types@4.20241218.0))
       '@sveltejs/kit':
         specifier: ^2.0.0
         version: 2.12.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2))
@@ -73,7 +73,7 @@ importers:
         version: 5.4.11(@types/node@22.10.2)
       wrangler:
         specifier: ^3.92.0
-        version: 3.96.0(@cloudflare/workers-types@4.20241214.0)
+        version: 3.96.0(@cloudflare/workers-types@4.20241218.0)
 
 packages:
 
@@ -119,8 +119,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cloudflare/workers-types@4.20241214.0':
-    resolution: {integrity: sha512-QPDx/qXI+06rDOsgHkYgEjGAkrQsmazZMDaMHBxkwxdSJbh4MQEydLJ/ILwZj3Thb9fg0PyD+K/1Fcn90TeueA==}
+  '@cloudflare/workers-types@4.20241218.0':
+    resolution: {integrity: sha512-Y0brjmJHcAZBXOPI7lU5hbiXglQWniA1kQjot2ata+HFimyjPPcz+4QWBRrmWcMPo0OadR2Vmac7WStDLpvz0w==}
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -2025,7 +2025,7 @@ snapshots:
   '@cloudflare/workerd-windows-64@1.20241205.0':
     optional: true
 
-  '@cloudflare/workers-types@4.20241214.0': {}
+  '@cloudflare/workers-types@4.20241218.0': {}
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -2411,13 +2411,13 @@ snapshots:
       '@sveltejs/kit': 2.12.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2))
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/adapter-cloudflare@4.8.0(@sveltejs/kit@2.12.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(wrangler@3.96.0(@cloudflare/workers-types@4.20241214.0))':
+  '@sveltejs/adapter-cloudflare@4.8.0(@sveltejs/kit@2.12.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(wrangler@3.96.0(@cloudflare/workers-types@4.20241218.0))':
     dependencies:
-      '@cloudflare/workers-types': 4.20241214.0
+      '@cloudflare/workers-types': 4.20241218.0
       '@sveltejs/kit': 2.12.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2))
       esbuild: 0.24.0
       worktop: 0.8.0-next.18
-      wrangler: 3.96.0(@cloudflare/workers-types@4.20241214.0)
+      wrangler: 3.96.0(@cloudflare/workers-types@4.20241218.0)
 
   '@sveltejs/kit@2.12.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2))':
     dependencies:
@@ -3629,7 +3629,7 @@ snapshots:
       mrmime: 2.0.0
       regexparam: 3.0.0
 
-  wrangler@3.96.0(@cloudflare/workers-types@4.20241214.0):
+  wrangler@3.96.0(@cloudflare/workers-types@4.20241218.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
@@ -3649,7 +3649,7 @@ snapshots:
       workerd: 1.20241205.0
       xxhash-wasm: 1.1.0
     optionalDependencies:
-      '@cloudflare/workers-types': 4.20241214.0
+      '@cloudflare/workers-types': 4.20241218.0
       fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
