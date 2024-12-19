@@ -16,7 +16,7 @@ importers:
         version: 3.3.1(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))
       '@sveltejs/adapter-cloudflare':
         specifier: ^4.8.0
-        version: 4.8.0(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(wrangler@3.96.0(@cloudflare/workers-types@4.20241218.0))
+        version: 4.8.0(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(wrangler@3.98.0(@cloudflare/workers-types@4.20241218.0))
       '@sveltejs/kit':
         specifier: ^2.0.0
         version: 2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2))
@@ -73,7 +73,7 @@ importers:
         version: 5.4.11(@types/node@22.10.2)
       wrangler:
         specifier: ^3.92.0
-        version: 3.96.0(@cloudflare/workers-types@4.20241218.0)
+        version: 3.98.0(@cloudflare/workers-types@4.20241218.0)
 
 packages:
 
@@ -962,8 +962,8 @@ packages:
     resolution: {integrity: sha512-n8enUVCED/KVRQlab1hr3MVpcVMvxtZjmEa956u+4YijlmQED223XMSYj2tLuKvr4jcCTzNNMpQDUer72MMmzA==}
     engines: {node: '>= 14.16.0'}
 
-  chokidar@4.0.2:
-    resolution: {integrity: sha512-/b57FK+bblSU+dfewfFe0rT1YjVDfOmeLQwCAuC+vwvgLkXboATqqmy+Ipux6JrF6L5joe5CBnFOw+gLWH6yKg==}
+  chokidar@4.0.3:
+    resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
     engines: {node: '>= 14.16.0'}
 
   color-convert@2.0.1:
@@ -1942,8 +1942,8 @@ packages:
     resolution: {integrity: sha512-+TvsA6VAVoMC3XDKR5MoC/qlLqDixEfOBysDEKnPIPou/NvoPWCAuXHXMsswwlvmEuvX56lQjvELLyLuzTKvRw==}
     engines: {node: '>=12'}
 
-  wrangler@3.96.0:
-    resolution: {integrity: sha512-KjbHTUnwTa5eKl3hzv2h6nHBfAsbUkdurL7f6Y288/Bdn6tcEis13jLVR/nw/eWa3tNCBG1xOMZJboUyzWcC1g==}
+  wrangler@3.98.0:
+    resolution: {integrity: sha512-s3R2Jdai+sIAQ1Fd+WzEK5fVxYHxAN7qbjYPXGx75dxM9/O2p+CT666PYLROGIk4sfAeLU4eVp9iqfVDuiQESw==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -2411,13 +2411,13 @@ snapshots:
       '@sveltejs/kit': 2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2))
       import-meta-resolve: 4.1.0
 
-  '@sveltejs/adapter-cloudflare@4.8.0(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(wrangler@3.96.0(@cloudflare/workers-types@4.20241218.0))':
+  '@sveltejs/adapter-cloudflare@4.8.0(@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(wrangler@3.98.0(@cloudflare/workers-types@4.20241218.0))':
     dependencies:
       '@cloudflare/workers-types': 4.20241218.0
       '@sveltejs/kit': 2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2))
       esbuild: 0.24.0
       worktop: 0.8.0-next.18
-      wrangler: 3.96.0(@cloudflare/workers-types@4.20241218.0)
+      wrangler: 3.98.0(@cloudflare/workers-types@4.20241218.0)
 
   '@sveltejs/kit@2.12.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.4)(vite@5.4.11(@types/node@22.10.2))':
     dependencies:
@@ -2675,7 +2675,7 @@ snapshots:
     dependencies:
       readdirp: 4.0.2
 
-  chokidar@4.0.2:
+  chokidar@4.0.3:
     dependencies:
       readdirp: 4.0.2
 
@@ -3629,13 +3629,13 @@ snapshots:
       mrmime: 2.0.0
       regexparam: 3.0.0
 
-  wrangler@3.96.0(@cloudflare/workers-types@4.20241218.0):
+  wrangler@3.98.0(@cloudflare/workers-types@4.20241218.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
-      chokidar: 4.0.2
+      chokidar: 4.0.3
       date-fns: 4.1.0
       esbuild: 0.17.19
       itty-time: 1.0.6
