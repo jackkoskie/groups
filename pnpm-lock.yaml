@@ -12,8 +12,8 @@ importers:
         specifier: ^4.20241202.0
         version: 4.20250712.0
       '@sveltejs/adapter-auto':
-        specifier: ^3.0.0
-        version: 3.3.1(@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))
+        specifier: ^6.0.0
+        version: 6.1.1(@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))
       '@sveltejs/adapter-cloudflare':
         specifier: ^4.8.0
         version: 4.9.0(@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))(wrangler@3.114.11(@cloudflare/workers-types@4.20250712.0))
@@ -28,10 +28,10 @@ importers:
         version: 9.6.1
       autoprefixer:
         specifier: ^10.4.20
-        version: 10.4.21(postcss@8.4.49)
+        version: 10.4.21(postcss@8.5.6)
       daisyui:
         specifier: ^4.12.14
-        version: 4.12.24(postcss@8.4.49)
+        version: 4.12.24(postcss@8.5.6)
       eslint:
         specifier: ^9.7.0
         version: 9.31.0(jiti@1.21.7)
@@ -890,8 +890,8 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@sveltejs/adapter-auto@3.3.1':
-    resolution: {integrity: sha512-5Sc7WAxYdL6q9j/+D0jJKjGREGlfIevDyHSQ2eNETHcB1TKlQWHcAo8AS8H1QdjNvSXpvOwNjykDUHPEAyGgdQ==}
+  '@sveltejs/adapter-auto@6.1.1':
+    resolution: {integrity: sha512-cBNt4jgH4KuaNO5gRSB2CZKkGtz+OCZ8lPjRQGjhvVUD4akotnj2weUia6imLl2v07K3IgsQRyM36909miSwoQ==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -1452,9 +1452,6 @@ packages:
   import-fresh@3.3.1:
     resolution: {integrity: sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==}
     engines: {node: '>=6'}
-
-  import-meta-resolve@4.1.0:
-    resolution: {integrity: sha512-I6fiaX09Xivtk+THaMfAwnA3MVA5Big1WHF1Dfx9hFuvNIWpXnorlkzhcQf6ehrqQiiZECRt1poOAkPmer3ruw==}
 
   imurmurhash@0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
@@ -2709,10 +2706,9 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))':
+  '@sveltejs/adapter-auto@6.1.1(@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))':
     dependencies:
       '@sveltejs/kit': 2.22.5(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5))
-      import-meta-resolve: 4.1.0
 
   '@sveltejs/adapter-cloudflare@4.9.0(@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))(svelte@5.35.6)(vite@5.4.19(@types/node@22.10.5)))(wrangler@3.114.11(@cloudflare/workers-types@4.20250712.0))':
     dependencies:
@@ -2916,14 +2912,14 @@ snapshots:
     dependencies:
       printable-characters: 1.0.42
 
-  autoprefixer@10.4.21(postcss@8.4.49):
+  autoprefixer@10.4.21(postcss@8.5.6):
     dependencies:
       browserslist: 4.24.4
       caniuse-lite: 1.0.30001702
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
-      postcss: 8.4.49
+      postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
   axobject-query@4.1.0: {}
@@ -3024,12 +3020,12 @@ snapshots:
 
   culori@3.3.0: {}
 
-  daisyui@4.12.24(postcss@8.4.49):
+  daisyui@4.12.24(postcss@8.5.6):
     dependencies:
       css-selector-tokenizer: 0.8.0
       culori: 3.3.0
       picocolors: 1.1.1
-      postcss-js: 4.0.1(postcss@8.4.49)
+      postcss-js: 4.0.1(postcss@8.5.6)
     transitivePeerDependencies:
       - postcss
 
@@ -3375,8 +3371,6 @@ snapshots:
       parent-module: 1.0.1
       resolve-from: 4.0.0
 
-  import-meta-resolve@4.1.0: {}
-
   imurmurhash@0.1.4: {}
 
   is-arrayish@0.3.2:
@@ -3586,6 +3580,11 @@ snapshots:
     dependencies:
       camelcase-css: 2.0.1
       postcss: 8.4.49
+
+  postcss-js@4.0.1(postcss@8.5.6):
+    dependencies:
+      camelcase-css: 2.0.1
+      postcss: 8.5.6
 
   postcss-load-config@3.1.4(postcss@8.4.49):
     dependencies:
