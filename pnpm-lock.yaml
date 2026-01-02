@@ -58,7 +58,7 @@ importers:
         version: 5.41.0
       svelte-check:
         specifier: ^4.0.0
-        version: 4.3.3(svelte@5.41.0)(typescript@5.9.3)
+        version: 4.3.5(svelte@5.41.0)(typescript@5.9.3)
       tailwindcss:
         specifier: ^3.4.9
         version: 3.4.18(yaml@2.6.1)
@@ -1997,8 +1997,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  svelte-check@4.3.3:
-    resolution: {integrity: sha512-RYP0bEwenDXzfv0P1sKAwjZSlaRyqBn0Fz1TVni58lqyEiqgwztTpmodJrGzP6ZT2aHl4MbTvWP6gbmQ3FOnBg==}
+  svelte-check@4.3.5:
+    resolution: {integrity: sha512-e4VWZETyXaKGhpkxOXP+B/d0Fp/zKViZoJmneZWe/05Y2aqSKj3YN2nLfYPJBQ87WEiY4BQCQ9hWGu9mPT1a1Q==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -3843,7 +3843,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.3.3(svelte@5.41.0)(typescript@5.9.3):
+  svelte-check@4.3.5(svelte@5.41.0)(typescript@5.9.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       chokidar: 4.0.3
